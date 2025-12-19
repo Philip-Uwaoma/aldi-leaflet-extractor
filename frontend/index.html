@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALDI Leaflet Product Extractor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <h1>🛒 ALDI Leaflet Extractor</h1>
+            </div>
+            <p class="subtitle">AI-Powered Product Information Extraction</p>
+        </header>
+
+        <!-- Upload Section -->
+        <section class="upload-section">
+            <div class="upload-card">
+                <h2>Upload Leaflet Image</h2>
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">📸</div>
+                    <p class="upload-text">Drag & drop your leaflet image here</p>
+                    <p class="upload-subtext">or click to browse</p>
+                    <input type="file" id="fileInput" accept="image/*" hidden>
+                    <button class="browse-btn" id="browseBtn">Choose File</button>
+                </div>
+                <div id="selectedFile" class="selected-file"></div>
+                <button class="extract-btn" id="extractBtn" disabled>
+                    <span class="btn-text">Extract Products</span>
+                    <span class="btn-loader" id="btnLoader"></span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Status Messages -->
+        <div id="statusMessage" class="status-message"></div>
+
+        <!-- Results Section -->
+        <section class="results-section" id="resultsSection" style="display: none;">
+            <div class="results-header">
+                <h2>Extracted Products</h2>
+                <div class="results-count">
+                    <span id="productCount">0</span> products found
+                </div>
+            </div>
+
+            <!-- Products Table -->
+            <div class="table-container">
+                <table class="products-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Product Name</th>
+                            <th>Price</th>
+                            <th>Unit</th>
+                            <th>Category</th>
+                            <th>Special Offer</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="productsTableBody">
+                        <!-- Products will be dynamically inserted here -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Download Button -->
+            <div class="download-section">
+                <button class="download-btn" id="downloadBtn">
+                    📥 Download JSON
+                </button>
+            </div>
+        </section>
+
+        <!-- Product Detail Modal -->
+        <div id="productModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Product Details</h2>
+                <div id="productDetails" class="product-details">
+                    <!-- Product details will be inserted here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Powered by Azure OpenAI Vision API | Built with Python & Flask</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
