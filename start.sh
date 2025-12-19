@@ -1,6 +1,5 @@
 #!/bin/bash
 # Activate virtual environment
-source venv/Scripts/activate  # Windows (PowerShell) might need .\venv\Scripts\activate
-
+source venv/bin/activate  # Linux/macOS venv path
 # Start your Python app
-python backend/app.py
+python3 backend/app.py
