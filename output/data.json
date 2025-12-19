@@ -1,0 +1,83 @@
+[
+  {
+    "product_name": "Hillcrest Rice Cake Bars 5pk/90g",
+    "price": "$1.99",
+    "unit": "each",
+    "category": "Snacks",
+    "special_offer": "Every day",
+    "additional_info": "Chocolate or Strawberry; $2.21 per 100g",
+    "id": 0
+  },
+  {
+    "product_name": "The Cake Stall Banana Bread 5pk/500g",
+    "price": "$4.49",
+    "unit": "every day",
+    "category": "Bakery",
+    "special_offer": "Every day",
+    "additional_info": "90c per 100g",
+    "id": 1
+  },
+  {
+    "product_name": "Organic Kombucha 330ml",
+    "price": "$2.49",
+    "unit": "each",
+    "category": "Beverages",
+    "special_offer": "Every day",
+    "additional_info": "Ginger & Lemon or Raspberry & Lemon; $7.55 per litre",
+    "id": 2
+  },
+  {
+    "product_name": "El Tora Black Beans 400g",
+    "price": "$1.29",
+    "unit": "every day",
+    "category": "Pantry",
+    "special_offer": "Every day",
+    "additional_info": "$3.23 per kg",
+    "id": 3
+  },
+  {
+    "product_name": "Brooklea Vanilla Custard Pouch 70g",
+    "price": "99c",
+    "unit": "every day",
+    "category": "Dairy",
+    "special_offer": "Every day",
+    "additional_info": "$1.41 per 100g",
+    "id": 4
+  },
+  {
+    "product_name": "International Cuisine Health & Vitality Lamb Hot Pot 290g",
+    "price": "$2.79",
+    "unit": "every day",
+    "category": "Frozen Meals",
+    "special_offer": "Every day",
+    "additional_info": "96c per 100g",
+    "id": 5
+  },
+  {
+    "product_name": "Power Force Bright & Clean Bathroom Cleaning Wipes 100pk",
+    "price": "$3.49",
+    "unit": "100pk",
+    "category": "Household",
+    "special_offer": "Every day",
+    "additional_info": "$3.49 per 100 wipes",
+    "id": 6
+  },
+  {
+    "product_name": "Colgate Total Toothpaste 80g",
+    "price": "$2.09",
+    "unit": "every day",
+    "category": "Personal Care",
+    "special_offer": "Every day",
+    "additional_info": "$2.61 per 100g",
+    "id": 7
+  },
+  {
+    "product_name": "Just Organic Passata 700g",
+    "price": "$1.99",
+    "unit": "each",
+    "category": "Pantry",
+    "special_offer": "Every day",
+    "additional_info": "28c per 100g",
+    "id": 8
+  }
+]
